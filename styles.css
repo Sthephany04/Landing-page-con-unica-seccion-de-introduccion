@@ -68,4 +68,60 @@ footer {
   font-size: 2em;  
   padding-left: 0.3em;
 }
-/*.attribution a { color: hsl(228, 45%, 44%); } */
+
+@media (min-width: 1440px) {
+
+  body {
+    background-image: url(/images/bg-desktop.svg);
+    background-size: cover;    
+    font-size: 12px;
+    margin: 70px 80px 30px 80px;    
+  }
+
+  
+  .header-logo img {
+    width: 18em;
+  }
+  
+  .main {
+    display: flex;
+  }
+
+  .main img {
+    margin: 6em 0;
+    width: 63.4em;    
+  }  
+
+  .main-container {
+    align-self: center;
+    margin-left: 5em;
+  }
+
+  .main h1 {  
+    max-width: 13em;
+    font-size: 3em;
+    text-align: left;
+    margin: 0;    
+  }
+
+  .main p {
+    margin-top: 2em;
+    font-size: 1.32em;
+    text-align: left;    
+  }
+
+  .main button {    
+    width: 15em;
+    height: 3em;
+    border-radius: 2em;
+    border-style: none;
+    color: hsl(257, 40%, 49%);
+    margin: 3% 0;  
+  }
+
+  footer {
+    margin-left: 94em;
+    max-width: 13em;
+  }
+}
+
