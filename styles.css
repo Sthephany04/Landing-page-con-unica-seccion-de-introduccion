@@ -69,18 +69,16 @@ footer {
   padding-left: 0.3em;
 }
 
-@media (min-width: 1440px) {
-
+@media (min-width: 1024px){
   body {
     background-image: url(images/bg-desktop.svg);
     background-size: cover;    
     font-size: 12px;
-    margin: 70px 80px 30px 80px;    
+    margin: 30px 40px;    
   }
 
-  
   .header-logo img {
-    width: 18em;
+    width: 16em;
   }
   
   .main {
@@ -88,8 +86,8 @@ footer {
   }
 
   .main img {
-    margin: 6em 0;
-    width: 63.4em;    
+    margin: 5em 0;
+    width: 50em;    
   }  
 
   .main-container {
@@ -99,29 +97,52 @@ footer {
 
   .main h1 {  
     max-width: 13em;
-    font-size: 3em;
+    font-size: 2em;
     text-align: left;
     margin: 0;    
   }
 
   .main p {
     margin-top: 2em;
-    font-size: 1.32em;
+    font-size: 1.1em;
     text-align: left;    
   }
 
   .main button {    
-    width: 15em;
-    height: 3em;
-    border-radius: 2em;
-    border-style: none;
-    color: hsl(257, 40%, 49%);
     margin: 3% 0;  
   }
 
   footer {
-    margin-left: 94em;
+    margin-left: 84%;
     max-width: 13em;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  body {
+    margin: 50px 60px 30px 60px;    
+  }
+  
+  .header-logo img {
+    width: 18em;
+  }
+  
+  .main img {
+    margin: 6em 0;
+    width: 63.4em;    
+  }  
+
+  .main h1 {      
+    font-size: 3em;        
+  }
+
+  .main p {    
+    font-size: 1.32em;     
+  }  
+
+  footer {
+    margin-left: 88%;   
   }
 }
 
